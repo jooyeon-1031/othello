@@ -7,8 +7,8 @@ int gameboard[6][6];
 int main(int argc, char *argv[]) {
 	init_othello();
 	int x,y;
-   for(int y=0;y<6;y++)
-   for(int x=0;x<6;x++)
+   for(y=0;y<6;y++)
+   for(x=0;x<6;x++)
     board[x][y]=0;
   
 	while (isGameEnd() == 0)
